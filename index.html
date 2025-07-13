@@ -6,64 +6,7 @@
     <title>Mahanthi Saikiran | AI Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
-    <style>
-        @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-20px); }
-        }
-        @keyframes shimmer {
-            0% { background-position: -1000px 0; }
-            100% { background-position: 1000px 0; }
-        }
-        @keyframes gradient {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
-        .animated-name {
-            background: linear-gradient(90deg, #3B82F6, #10B981, #8B5CF6, #EC4899);
-            background-size: 300% 300%;
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            animation: gradient 8s ease infinite;
-        }
-        .floating {
-            animation: float 6s ease-in-out infinite;
-        }
-        .shimmer-text {
-            background: linear-gradient(90deg, #f0f0f0, #e0e0e0, #f0f0f0);
-            background-size: 200% 100%;
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            animation: shimmer 2s infinite linear;
-        }
-        .toast {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            padding: 15px 25px;
-            border-radius: 8px;
-            color: white;
-            font-weight: 500;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-            transform: translateY(100px);
-            opacity: 0;
-            transition: all 0.3s ease;
-            z-index: 1000;
-        }
-        .toast.show {
-            transform: translateY(0);
-            opacity: 1;
-        }
-        .toast.success {
-            background: #10B981;
-        }
-        .toast.error {
-            background: #EF4444;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
     <script>
         tailwind.config = {
             theme: {
@@ -111,7 +54,7 @@
     <nav class="fixed top-0 w-full z-50 backdrop-blur-md bg-dark/80 py-4">
         <div class="container mx-auto px-6 flex justify-between items-center">
             <div class="text-xl font-bold">
-                <span class="text-primary">M</span><span class="text-secondary">S</span>
+                <span class="text-primary">Mahanthi</span><span class="text-secondary">Saikiran</span>
             </div>
             <div class="hidden md:flex space-x-8 font-rajdhani">
                 <a href="#about" class="hover:text-primary transition hover:scale-105">About</a>
@@ -254,7 +197,7 @@
                             <span class="px-2 py-1 bg-yellow-900/30 text-yellow-400 text-sm rounded">Flask</span>
                             <span class="px-2 py-1 bg-green-900/30 text-green-400 text-sm rounded">OpenCV</span>
                         </div>
-                        <a href="#" class="text-primary hover:text-secondary flex items-center">
+                        <a href="https://github.com/saikiran97018" class="text-primary hover:text-secondary flex items-center">
                             View Details
                             <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -282,7 +225,7 @@
                             <span class="px-2 py-1 bg-amber-900/30 text-amber-400 text-sm rounded">JavaScript</span>
                             <span class="px-2 py-1 bg-blue-900/30 text-blue-400 text-sm rounded">API Integration</span>
                         </div>
-                        <a href="#" class="text-primary hover:text-secondary flex items-center">
+                        <a href="https://github.com/saikiran97018" class="text-primary hover:text-secondary flex items-center">
                             View Details
                             <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -311,7 +254,7 @@
                             <span class="px-2 py-1 bg-pink-900/30 text-pink-400 text-sm rounded">Translation API</span>
                             <span class="px-2 py-1 bg-yellow-900/30 text-yellow-400 text-sm rounded">Mind Mapping</span>
                         </div>
-                        <a href="#" class="text-primary hover:text-secondary flex items-center">
+                        <a href="https://github.com/saikiran97018/AI-Powered-Engineering" class="text-primary hover:text-secondary flex items-center">
                             View Details
                             <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -543,7 +486,7 @@
                                     </div>
                                     <div>
                                         <h4 class="font-semibold">Email</h4>
-                                        <p class="text-gray-400">22B91A5478@srkrec.edu.in</p>
+                                        <p class="text-gray-400">saimahanthi369@gmail.com</p>
                                     </div>
                                 </div>
                                 
@@ -556,7 +499,7 @@
                                     </div>
                                     <div>
                                         <h4 class="font-semibold">Location</h4>
-                                        <p class="text-gray-400">Sagi Rama Krishnan Raju Engineering College, Andhra Pradesh</p>
+                                        <p class="text-gray-400">2-70 Gorlepeta village Ranasthalam Mandalam Srikakulam District</p>
                                     </div>
                                 </div>
                                 
@@ -568,7 +511,7 @@
                                     </div>
                                     <div>
                                         <h4 class="font-semibold">Phone</h4>
-                                        <p class="text-gray-400">+91 XXXXXXXXXX</p>
+                                        <p class="text-gray-400">+91 7013222647</p>
                                     </div>
                                 </div>
                             </div>
@@ -638,68 +581,6 @@
         </div>
     </footer>
 
-    <script>
-        // Function to show toast notifications
-        function showToast(message, type = 'success') {
-            const toast = document.getElementById('toast');
-            toast.textContent = message;
-            toast.className = `toast ${type} show`;
-            
-            setTimeout(() => {
-                toast.className = 'toast';
-            }, 3000);
-        }
-
-        // Handle contact form submission
-        document.getElementById('contactForm').addEventListener('submit', async (e) => {
-            e.preventDefault();
-            
-            const form = e.target;
-            const formData = new FormData(form);
-            const data = Object.fromEntries(formData.entries());
-            
-            try {
-                // Show loading state
-                const submitBtn = form.querySelector('button[type="submit"]');
-                submitBtn.disabled = true;
-                submitBtn.textContent = 'Sending...';
-                
-                // In production, replace this with your Vercel API endpoint
-                // For demo purposes, we'll simulate an API call
-                await new Promise(resolve => setTimeout(resolve, 1500));
-                
-                // Reset form
-                form.reset();
-                
-                // Show success message
-                showToast('Message sent successfully!', 'success');
-                
-            } catch (error) {
-                showToast('Failed to send message. Please try again.', 'error');
-            } finally {
-                // Reset button state
-                const submitBtn = form.querySelector('button[type="submit"]');
-                submitBtn.disabled = false;
-                submitBtn.textContent = 'Send Message';
-            }
-        });
-
-        // Handle resume download
-        document.getElementById('downloadResume').addEventListener('click', () => {
-            // In a real application, this would point to your resume file
-            // For now, we'll simulate the download
-            showToast('Resume download started!', 'success');
-            
-            // Simulate download
-            setTimeout(() => {
-                const link = document.createElement('a');
-                link.href = '#';
-                link.download = 'Mahanthi_Saikiran_Resume.pdf';
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-            }, 1000);
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
